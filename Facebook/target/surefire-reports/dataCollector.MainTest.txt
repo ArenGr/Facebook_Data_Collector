@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: dataCollector.MainTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 101.846 s - in dataCollector.MainTest

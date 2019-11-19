@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="101630" started-at="2019-11-20T01:17:38 AMT" finished-at="2019-11-20T01:19:19 AMT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="101630" started-at="2019-11-20T01:17:38 AMT" finished-at="2019-11-20T01:19:19 AMT">
+      <class name="dataCollector.MainTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:dataCollector.MainTest@215be6bb]" name="setupDriver" is-config="true" duration-ms="958" started-at="2019-11-20T01:17:38 AMT" finished-at="2019-11-20T01:17:39 AMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String)[pri:0, instance:dataCollector.MainTest@215be6bb]" name="getData" duration-ms="100555" started-at="2019-11-20T01:17:39 AMT" finished-at="2019-11-20T01:19:19 AMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+37491221382]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789ll]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:dataCollector.MainTest@215be6bb]" name="closeDriver" is-config="true" duration-ms="87" started-at="2019-11-20T01:19:19 AMT" finished-at="2019-11-20T01:19:19 AMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- dataCollector.MainTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
